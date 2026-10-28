@@ -10,7 +10,7 @@
             envelopeScreen.classList.add("hide");
             invitation.classList.remove("hidden");
             invitation.classList.add("show");
-        },1400);
+        },3000);
     });
 
     backToTop.addEventListener("click", ()=>{

@@ -536,7 +536,7 @@ background-color: #eee0d1;
     font-size: 35px;
     line-height: 1;
     font-weight: normal;
-    font-style: Georgia, "Times New Roman", serif;;
+    font-family: Georgia, "Times New Roman", serif;
 }
 .bmgb-section h2 {
 max-width: 650px;
