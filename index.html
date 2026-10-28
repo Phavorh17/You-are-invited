@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gideon & Mabel</title>
     <link rel="stylesheet" href="style.css">
+    <link
+    href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+    rel="stylesheet">
+
 </head>
 <body>
 
@@ -42,7 +46,7 @@
         </nav>
 
         <!-- Welcome section -->
-        <section class="hero" id="welcome">
+        <section data-aos="zoom-in" class="hero" id="welcome">
 
             <p class="eyebrow">THE MOMENT WE'VE BEEN WAITING FOR</p>
             <h1>
@@ -124,10 +128,10 @@
         </section>
 
         <!-- Be my groomsman/bridesmaid-->
-        <section class="bmgb-section" id="bmgb">
+        <section class="bmgb-section" id="bmgb" data-aos="fade-up">
             <p class="eyebrow">❧ JUSTICE ❧</p>
 
-            <h2>Will you be my Groomsman / Bridesmaid?</h2>
+            <h2>Will you be my Groomsman?</h2>
 
             <p>
                 Your presence would mean the world to us.
@@ -137,7 +141,7 @@
         </section>
 
         <!-- Countdown -->
-        <section class="countdown-section">
+        <section class="countdown-section" data-aos="zoom-in>
             
             <p class="eyebrow">UNTIL WE SAY "I DO"</p>
 
@@ -188,6 +192,11 @@
 
 
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 
     <script src="script.js"></script>
     

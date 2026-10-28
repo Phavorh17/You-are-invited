@@ -27,7 +27,7 @@
 
     });
 
-    const weddingDate = new Date(2020, 1, 20, 10, 0, 0).getTime();
+    const weddingDate = new Date(2027, 1, 20, 10, 0, 0).getTime();
     const weddingMessage = document.getElementById("weddingMessage");
     const daysElement = document.getElementById("days");
     const hoursElement = document.getElementById("hours");
