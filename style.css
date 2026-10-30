@@ -83,6 +83,9 @@ var(--ivory) 75%
 transition:
 opacity 1s ease,
 visibility 1s ease;
+outline: 1px solid var(--sage-dark);
+outline-offset: -10px;
+
 }
 
 .envelope-screen > .eyebrow {
@@ -108,13 +111,14 @@ font-style: italic;
 
 .envelope-button {
 position: relative;
-width: min(430px, 85vw);
+ width: min(430px, 85vw);  
 height: 270px;
 padding: 0;
 border: none;
 background: transparent;
 perspective: 1000px;
 isolation: isolate;
+
 }
 
 /* Common envelope dimensions */
